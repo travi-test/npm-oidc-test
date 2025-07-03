@@ -1,0 +1,19 @@
+{
+  "name": "@travi/npm-oidc-test",
+  "version": "0.0.1",
+  "description": "a simple package to test the upcoming oidc publish flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travi-test/npm-oidc-test.git"
+  },
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travi-test/npm-oidc-test/issues"
+  },
+  "homepage": "https://github.com/travi-test/npm-oidc-test#readme"
+}
