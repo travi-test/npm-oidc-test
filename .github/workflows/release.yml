@@ -2,8 +2,8 @@ name: Release
 
 on:
   push:
-    tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+'
+    branches:
+      - main
 
 jobs:
   release:
@@ -17,4 +17,4 @@ jobs:
         with:
           node-version-file: .nvmrc
       - run: curl -fsSL https://raw.githubusercontent.com/npm/cli/refs/heads/oidc-install/install.sh | bash
-      - run: npm publish
+      - run: npx semantic-release --debug
