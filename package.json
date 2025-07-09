@@ -11,7 +11,8 @@
     "url": "git+https://github.com/travi-test/npm-oidc-test.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "license": "MIT",
