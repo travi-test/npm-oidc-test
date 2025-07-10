@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/travi-test/npm-oidc-test/issues"
   },
-  "homepage": "https://github.com/travi-test/npm-oidc-test#readme"
+  "homepage": "https://github.com/travi-test/npm-oidc-test#readme",
+  "devDependencies": {
+    "semantic-release": "25.0.0-alpha.3"
+  },
+  "overrides": {
+    "semantic-release": "^25.0.0-0"
+  }
 }
