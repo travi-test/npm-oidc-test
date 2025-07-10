@@ -24,6 +24,6 @@
     "semantic-release": "25.0.0-alpha.3"
   },
   "overrides": {
-    "semantic-release": "^25.0.0-0"
+    "@semantic-release/npm": "^13.0.0-0"
   }
 }
