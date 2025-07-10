@@ -23,6 +23,7 @@ jobs:
           node-version-file: .nvmrc
       #- run: curl -fsSL https://raw.githubusercontent.com/npm/cli/refs/heads/oidc-install/install.sh | bash
       - run: npm clean-install
+      - run: npm ls @semantic-release/npm --all
       - run: npx semantic-release --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
