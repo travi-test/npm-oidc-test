@@ -1,6 +1,6 @@
 {
   "name": "@travi/npm-oidc-test",
-  "version": "0.0.6",
+  "version": "0.0.0-semantically-released",
   "description": "a simple package to test the upcoming oidc publish flow",
   "main": "index.js",
   "scripts": {
