@@ -28,7 +28,7 @@ jobs:
       #- run: curl -fsSL https://raw.githubusercontent.com/npm/cli/refs/heads/oidc-install/install.sh | bash
       - run: npm publish --dry-run --tag=auth-check
       - run: npm clean-install
-      - run: npm ls @semantic-release/npm --all
+      #- run: npm ls @semantic-release/npm --all
       - run: npx semantic-release@alpha --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
