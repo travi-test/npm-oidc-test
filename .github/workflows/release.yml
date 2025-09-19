@@ -29,6 +29,6 @@ jobs:
       - run: npm publish --dry-run --tag=auth-check
       - run: npm clean-install
       - run: npm ls @semantic-release/npm --all
-      - run: npx semantic-release --debug
+      - run: npx semantic-release@alpha --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
