@@ -21,11 +21,6 @@
   },
   "homepage": "https://github.com/travi-test/npm-oidc-test#readme",
   "devDependencies": {
-    "@semantic-release/npm": "13.1.0-alpha.5",
-    "semantic-release": "25.0.0-alpha.7"
-  },
-  "overrides": {
-    "@semantic-release/npm": "13.1.0-alpha.5",
-    "semantic-release": "25.0.0-alpha.7"
+    "semantic-release": "^25.0.1-alpha.2"
   }
 }
