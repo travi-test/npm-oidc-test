@@ -3,5 +3,4 @@
 a package to test with while getting semantic-release working with upcoming OIDC support with the official npm registry
 
 <!--status-badges start -->
-
 <!--status-badges end -->
